@@ -1,6 +1,6 @@
 # Activity_Reminder_Application
 
-** What the Script Will Do:
+# What the Script Will Do:
   . Daily Reset: The script will reset the is_notification_sent array at the start of each new day to ensure notifications are sent again the next day.
   . Hourly Notifications: Throughout the specified hours (8 AM to 6 PM), it will check the current time every 5 minutes and send notifications based on the predefined schedule:
   . 1 PM: Reminder for lunch and water.
@@ -10,9 +10,9 @@
   . This script will continue to run in the background, sending these reminders at the specified times, as long as it is not interrupted or stopped.
 
 
-** The script is designed to run continuously and send notifications at specific times of the day.
+# The script is designed to run continuously and send notifications at specific times of the day.
   
-** Overview of what the script does:
+# Overview of what the script does:
 
 1) Imports and Initialization:
   . Imports the 'notification' module from 'plyer' for sending system notifications.
