@@ -1,0 +1,17 @@
+# Implementation Steps:
+
+step1) Setup Python Environment:
+  Install Python 3.x.
+  Install the 'plyer' library using pip: 'pip install plyer'.
+
+step2) Script Development:
+  Develop the script with the specified functionality.
+  Test the script to ensure it sends notifications correctly.
+  Run Script as Background Process:
+
+step3) For Linux:
+  Use 'nohup python your_script.py &' to run the script in the background.
+  Alternatively, create a systemd service for automatic startup.
+
+  # For Windows:
+    Use Task Scheduler to run the script at startup.
