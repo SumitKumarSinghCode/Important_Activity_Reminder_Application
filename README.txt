@@ -9,7 +9,7 @@ So, Let's run the code
 virtualenv venv
 source venv/bin/activate
 pip install -r Requirements
-python activity_reminder.py
+python Activity_Reminder.py
 
 
 # Activity_Reminder_Application
